@@ -1,0 +1,541 @@
+body {
+    background: lightblue;
+    padding: 50px 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    background: black;
+    border-radius: 30px;
+}
+
+.logoSidenavExit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 23px;
+    color: rgb(184, 184, 184);
+} 
+
+.logo .fa-layer-group {
+    padding: 15px;
+    background: lightgoldenrodyellow;
+    border-radius: 13px;
+}
+
+/* .nav {
+    color: #fff;
+} */
+
+.nav ul {
+    padding-top: 50px;
+}
+.fa-th-large {
+    color: #fff;
+}
+.nav ul li {
+    list-style-type: none;
+    padding-bottom: 35px;
+}
+
+.nav ul a {
+    color: rgb(131, 131, 131);
+}
+/* 
+.firstItem-Setup {
+    padding-top: 20px;
+}
+
+.secondList-Item {
+    padding-top: 50px;
+}
+
+.lastItem-Setup {
+    padding-top: 80px;
+} */
+
+
+.exit i{
+    padding-top: 130px;
+    padding-left: 43px;
+    color: rgb(131, 131, 131);
+}
+
+
+/* overView page */
+
+.insideContainer {
+    width: 100%;
+    background: #fff;
+    margin: 10px 10px 10px 20px;
+    border-radius: 30px;
+    padding: 20px 40px 30px 40px;
+}
+
+.headerAndRightTop {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.overview {
+    flex: 2;
+}
+
+.rightTopList{
+    flex: 1;
+}
+
+.overview {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.rightTopList .topnav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.rightTopList ul li {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.rightTopList .listPadding-top {
+    padding: 10px;
+    background: rgb(240, 238, 238);
+    border-radius: 50px;
+}
+.lastList-setup{
+    position: relative;
+}
+.user-setup {
+    position: absolute;
+    left: 0px;
+    bottom: 1px;
+    font-size: 35px;
+}
+
+.zaia {
+    padding: 10px;
+    padding-left: 40px;
+    background: rgb(240, 238, 238);
+    border-radius: 50px;
+}
+
+
+/* Portfoilio and  your assets */
+
+.portfoilioAndYourAssets {
+    display: flex;
+    margin-top: -20px;
+}
+
+.portfoilio {
+    flex: 1;
+}
+.assets {
+    flex: 1;
+}
+
+.Portfoilio-styling {
+    font-size: 17px;
+    font-weight:800;
+}
+
+.portfoilio-box {
+    background-color: rgb(209, 223, 228);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.balanceAndMenuDots {
+    display: flex;
+}
+
+.MoneyAndAboutMoney {
+  flex: 1;
+}
+
+.menuDots {
+    flex: 0;
+}
+
+.balance {
+    font-size: 29px; 
+    font-weight:bold;
+}
+.p-balance {
+    margin-top: 5px;
+}
+
+.menuDots {
+    color: #929292;
+}
+
+.fa-chart-line {
+    margin-left: 520px;
+    margin-top: -0px;
+    font-size: 60px;
+}
+
+
+.tradingTime ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 12px;
+    color: #929292;
+}
+
+.tradingTime li{ 
+  padding-right: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tradingTime .hour-color {
+    color: rgb(59, 59, 59);
+}
+
+/* assets */
+
+.assets {
+    margin-left: 20px;
+}
+
+.yourAssetsAndSymbol {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.yourAccets {
+    flex: 1;
+}
+
+.symbol {
+    flex: 0;
+}
+
+.assets-container {
+    width: 100%;
+    display: flex;
+}
+
+.assets-container .box{
+    width: 33%;
+    height: 180px;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    padding: 20px;
+}
+
+.asset-box1{
+    background: rgb(226, 215, 215);
+}
+.asset-box2{
+    background: rgb(192, 236, 192);
+    margin-left: 20px;
+}
+.asset-box3{
+    background: rgb(252, 252, 171);
+    margin-left: 20px;
+}
+
+.MoneyAndMoneyType {
+    display: flex;
+}
+
+.MoneyAndMoneyType .c-balance{
+    flex: 1;
+}
+
+.MoneyAndMoneyType .balance{
+    flex: 0;
+}
+
+
+.bitConinsymbolAndPercentage {
+    display: flex;
+    margin-top: 50px;
+    /* align-self: flex-end; */
+    align-items: center;
+}
+
+.btc {
+   flex: 1;
+}
+
+.percentage {
+    flex: 0;
+}
+
+.c-balance {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fa-btc {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+}
+.fa-tumblr {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.fa-ethereum {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+/* market */
+.tableForPercentageAndPostPlace {
+    width: 100%;
+   margin-top: 20px;
+   display: flex;
+}
+
+.marketAndTable{
+    flex: 3;
+}
+.postPlace {
+    flex: 1;
+}
+
+.marketAndTable{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.marketAndDurationGainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.market {
+    flex: 2.6;
+}
+.durationAndGainer {
+    flex: 1;
+}
+
+.market{
+    font-weight: 950;
+    font-size: 18px;
+}
+.duration {
+    padding: 7px;
+    border: 0.2px solid rgb(230, 223, 223);
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.gainer {
+    padding: 7px;
+    border: 0.2px solid rgb(230, 223, 223);
+    border-radius: 50px;
+}
+
+.durationAndGainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*  */
+
+.tableForPercentage {
+    margin-top: 10px;
+}
+
+table tr td{
+   padding: 0px 0px 10px 0;
+   text-align: center;
+}
+
+
+table .table-header {
+    font-size: 12px;
+    color: rgb(141, 140, 140);
+}
+ .name-setup {
+    text-align: start;
+}
+
+
+.padding-setup {
+    padding-left: 100px;
+}
+
+.iconAndName {
+    display: flex;
+    align-items: center;
+}
+
+.icon-padding {
+    font-size: 15px;
+    color: #fff;
+    padding: 8px;
+    background: black;
+    border-radius: 10px;
+}
+
+.BrandNameAndSomething {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+.brandName {
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.somthing {
+   color: #929292;
+   font-size: 10px;
+}
+
+.postPlace {
+    height: 170px;
+    width: 100%;
+    background: black;
+    color: #fff;
+    border-radius: 20px;
+    padding: 25px 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.first-shadow {
+    position:relative;
+    height:20px;
+    z-index:0;
+    width:96%;
+    left:5px;
+    top:22.5px;
+    box-shadow: 0px 15px 0px #888;
+    border-radius: 70px;
+    background: #000000;
+}
+.second-shadow {
+    position:relative;
+    height:15px;
+    z-index:0;
+    width:86%;
+    left:23px;
+    top:21px;
+    box-shadow: 0px 10px 0px #888;
+    border-radius: 50px;
+}
+
+.shadowBorder1 {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: 0px;
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    /* transform: rotate(60deg); */
+}
+
+/* .postText-Part {
+    content: "";
+    width: 150px;
+    height: 600px;
+    background: rgba(255,255,255,0.15);
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    border-radius: 4px;
+    transform: skew(-25deg, 10deg);
+      transform-origin: top left;
+    margin-top: -180px; 
+     display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -80px;
+} */
+
+
+
+.earnFree{
+    width: 260px;
+    font-size:18px;
+    font-weight: 800;
+    line-height: 2rem;
+    /* line-height: 42px; */
+}
+
+.earnFree .free{
+    font-size: 15px;
+    padding: 2px 15px;
+    margin: 0 7px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: black;
+}
+.freeBackground{
+    transform: skew(30deg);
+    /* padding: 0px 5px;
+    background: #fff;
+    transform: skew(45deg);
+    border-radius: 50px; */
+}
+
+.description1 {
+    font-size: 12px;
+    color: #d8d5d5;
+}
+
+.earn-now {
+    width: 80px;
+    padding: 7px 20px;
+    background: lightblue;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+}
+
+.earnFree .free{
+    transform: rotate(45deg);
+}
+
+/* .earnFree .freeBackground {
+    padding: 5px 10px;
+    background: #fff;
+    transform: rotate(-80deg);
+    border-radius: 50px;
+    margin-left: 30px;
+} */
+
+/* .description{
+    font-size: 12px;
+    margin-top: -20px;
+} */
+
+/* .assets-container  {
+    padding: 10px;
+    background: rgba(246, 203, 253, 0.863);
+} */
