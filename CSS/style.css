@@ -424,88 +424,39 @@ table .table-header {
     right: 0;
     top: 0;
 }
-
-.first-shadow {
-    position:relative;
-    height:20px;
-    z-index:0;
-    width:96%;
-    left:5px;
-    top:22.5px;
-    box-shadow: 0px 15px 0px #888;
-    border-radius: 70px;
-    background: #000000;
-}
-.second-shadow {
-    position:relative;
-    height:15px;
-    z-index:0;
-    width:86%;
-    left:23px;
-    top:21px;
-    box-shadow: 0px 10px 0px #888;
-    border-radius: 50px;
-}
-
-.shadowBorder1 {
-    content: "";
-    width: 50px;
-    height: 50px;
-    position: relative;
-    left: 150px;
-    top: 0px;
-    border: 0.5px solid #fff;
-    border-radius: 10px;
-    /* transform: rotate(60deg); */
-}
-
-/* .postText-Part {
-    content: "";
-    width: 150px;
-    height: 600px;
-    background: rgba(255,255,255,0.15);
-    position: absolute;
-    left: 0px;
-    top: 90px;
-    border-radius: 4px;
-    transform: skew(-25deg, 10deg);
-      transform-origin: top left;
-    margin-top: -180px; 
-     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: -80px;
-} */
-
-
-
 .earnFree{
-    width: 260px;
-    font-size:18px;
-    font-weight: 800;
+    width: 240px;
+    font-size:25px;
+    font-weight: 700;
     line-height: 2rem;
-    /* line-height: 42px; */
+}
+
+.earnFree p span{
+    transform: rotate(-30deg);
 }
 
 .earnFree .free{
     font-size: 15px;
     padding: 2px 15px;
-    margin: 0 7px;
     border: 1px solid #fff;
     border-radius: 50px;
     background: black;
 }
-.freeBackground{
+/* .freeBackground{
     transform: skew(30deg);
-    /* padding: 0px 5px;
+    padding: 0px 5px;
     background: #fff;
     transform: skew(45deg);
-    border-radius: 50px; */
-}
+    border-radius: 50px;
+} */
 
 .description1 {
     font-size: 12px;
     color: #d8d5d5;
+}
+
+#earnnow {
+   padding-top: 10px;
 }
 
 .earn-now {
@@ -518,9 +469,74 @@ table .table-header {
     color: black;
 }
 
-.earnFree .free{
-    transform: rotate(45deg);
+.first-shadow {
+    position:relative;
+    height:20px;
+    z-index:0;
+    width:96%;
+    left:5px;
+    top:10px;
+    box-shadow: 0px 15px 0px rgb(223, 223, 223);
+    border-radius: 70px;
+    background: #000000;
 }
+.second-shadow {
+    position:relative;
+    height:15px;
+    z-index:0;
+    width:86%;
+    left:20px;
+    top:12px;
+    box-shadow: 0px 10px 0px rgb(238, 238, 238);
+    border-radius: 50px;
+}
+
+.boxBorder1 {
+    content: "";
+    width: 120px;
+    height: 95px;
+    position: absolute;
+    top: 125px;
+    left: 189px;
+    border: 0.5px solid #fff;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-radius: 10px;
+    transform: rotate(-8deg);
+}
+.boxBorder2 {
+    content: "";
+    width: 150px;
+    height: 62px;
+    position: absolute;
+    top: 140px;
+    left: 170px;
+    border: 0.5px solid #fff;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-radius: 10px;
+    transform: rotate(-20deg);
+}
+
+.boxBorder3 {
+    content: "";
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    top: 178px;
+    left: 149px;
+    border: 0.5px solid #fff;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-radius: 10px;
+    transform: rotate(-20deg);
+}
+
+
+/* .postText-Part {
+
+} */
+
 
 /* .earnFree .freeBackground {
     padding: 5px 10px;
@@ -535,7 +551,3 @@ table .table-header {
     margin-top: -20px;
 } */
 
-/* .assets-container  {
-    padding: 10px;
-    background: rgba(246, 203, 253, 0.863);
-} */
