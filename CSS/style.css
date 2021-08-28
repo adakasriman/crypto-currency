@@ -430,8 +430,7 @@ table .table-header {
     font-weight: 700;
     line-height: 2rem;
 }
-
-.earnFree p span{
+.free{
     transform: rotate(-30deg);
 }
 
